@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+
+class Stack {
+private:
+    int* nombres;
+    int size=20;
+public:
+    Stack(int size = 20):size(size){
+        nombres = new int[size];
+    }
+	}
+
+int main() {
+	int n1,n2,n3;
+	cout<<"veuillez entrer 3 nombres "<<endl;
+	cin>>n1;
+	cin>>n2;
+	cin>>n3;
+    Stack p;
+
+    if (p<<n1 && p<<n2 && p<<n3) {
+        cout << "Ajouter des elements " << endl;
+    }
+if (p++) {
+    cout << "pile est pleine" << endl;
+    return 1;
+} else {
+    cout << "pile est vide " << endl;
+    return 0;
+}
+if (p++) {
+    cout << "pile est pleine" << endl;
+    return 1;
+} else {
+    cout << "pile est pas pleine" << endl;
+    return 0;
+}
+   
+    return 0;
+}
